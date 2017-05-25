@@ -37,7 +37,7 @@ type Options = {
   watch?: boolean,
 };
 
-type StrictOptions = {...Options, reporter: Reporter};
+type StrictOptions = {reporter: Reporter};
 
 type PublicBundleOptions = {
   +dev?: boolean,

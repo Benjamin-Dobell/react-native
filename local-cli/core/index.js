@@ -20,7 +20,6 @@ import type {CommandT} from '../commands';
 import type {ConfigT} from '../util/Config';
 
 export type RNConfig = {
-  ...ConfigT,
   /**
    * Returns an array of project commands used by the CLI to load
    */
